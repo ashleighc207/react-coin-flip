@@ -4,9 +4,11 @@ import './Coin.css';
 class Coin extends Component {
   render(){
     return(
-      <div>
-        <h1> A coin! </h1>
-      </div>
+      <section>
+        <div class="Coin">
+          <i class="fas fa-dog Coin--icon"></i>
+        </div>
+      </section>
     )
   }
 }

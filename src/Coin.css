@@ -1,0 +1,21 @@
+.Coin {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(213,213,217,1) 2%, rgba(236,236,236,0.8764568764568764) 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Coin--icon {
+  font-size: 120px;
+}
+
+.Coin--icon.fa-dog {
+  color: #3744be;
+}
+
+.Coin--icon.fa-cat {
+  color: #be3798;
+}

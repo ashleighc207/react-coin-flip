@@ -6,10 +6,10 @@ import Coin from './Coin';
 class Gameboard extends Component {
   render(){
     return(
-      <div>
+      <section class="Gameboard">
         <h1> My Test </h1>
         <Coin />
-      </div>
+      </section>
     )
   }
 }
