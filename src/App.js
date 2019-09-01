@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Gameboard from './Gameboard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Test Run!</h1>
+      <Gameboard />
     </div>
   );
 }
