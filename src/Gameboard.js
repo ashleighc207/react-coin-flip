@@ -23,17 +23,10 @@ class Gameboard extends Component {
 
     this.setState(state => {
       let newState = {
-        icon: state.icon,
+        icon: (randIdx === 0 ? "fas fa-dog" : "fas fa-cat"),
         total: state.total + 1,
-        dogCount: state.dogCount,
-        catCount: state.catCount
-      }
-      if(randIdx === 0){
-        newState.icon = "fas fa-dog";
-        newState.dogCount += 1;
-      } else {
-        newState.icon = "fas fa-cat";
-        newState.catCount += 1;
+        dogCount: state.dogCount + (randIdx === 0 ? 1 : 0),
+        catCount: state.catCount + (randIdx === 1 ? 1 : 0)
       }
       return newState;
     })
